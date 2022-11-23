@@ -1,0 +1,66 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+.box {
+    margin-top: 100px;
+}
+
+
+#cafes {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color:black;
+    height: 40px;
+    width: 200px;
+}
+
+#cafes:focus {
+    border-color: rgb(47, 52, 142);
+}
+
+#r-h {
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+#a-h {
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+#cashbar {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color:black;
+    height: 40px;
+    width: 200px;
+}
+ 
+#cashbar:focus {
+    border-color: rgb(47, 52, 142);
+}
+
+#create {
+    width: 190px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 0px;
+}
+
+#create:active {
+    background-color: rgb(47, 52, 142);
+    color: white;
+}
+
+#btnWidget {
+    padding-top: 60px;
+}

@@ -1,0 +1,220 @@
+/*  */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+     background-color: rgb(47, 52, 142);
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+hr {
+    margin-top: -1px;
+    width: 343.5px;
+    color: grey;
+}
+
+.txContent {
+    margin-top: -4.2px;
+    margin-left: 16px;
+}
+
+.txDetails {
+    text-align: center;
+}
+
+.txDetailsText {
+    padding-top: 15px;
+}
+
+h6 {
+    font-size: 12.5px;
+    font-weight: 600;
+}
+
+
+/* Transaction ID */
+#transaction-id {
+    /* font-size: 12.5px;
+    font-weight: 400; */
+}
+
+#txid {
+    margin-top: -27px;
+    font-size: 12px;
+}
+
+/* Transaction Date */
+#transaction-date {
+    margin-top: 0px;
+    padding-top: 10px;
+    
+}
+
+#date {
+    margin-top: -25px;
+    font-size: 12px;
+}
+
+/* Transaction Status */
+#transaction-status {
+    margin-top: 0px;
+    padding-top: 9px;
+    /* font-size: 12.5px;
+    font-weight: 400; */
+}
+
+#status {
+    margin-top: -26px;
+    font-size: 12px;
+}
+
+/* Destination */
+#to {
+    margin-top: 0px;
+    padding-top: 10px;
+    /* font-size: 12.5px;
+    font-weight: 400; */
+}
+
+#cafe {
+    margin-top: -27px;
+    font-size: 17px;
+}
+
+/* Amount */
+#amount {
+    margin-top: 0px;
+    padding-top: 1.9px;
+    font-size: 12.9px;
+    font-weight: 600;
+    
+}
+
+#cost {
+    color: rgb(47, 52, 142);
+    margin-top: -26.5px;
+    font-size: 19.5px;
+    font-weight: 700;
+}
+
+/* CARD */
+
+.cardContainer {
+    background-color:white;
+    border-radius: 10px;
+    margin-left: 11.5px;
+    margin-top: 147px;
+    width: 376px;
+    height: 450px;
+
+}
+
+.btnContainer {
+    margin-top: 212.1px;
+    margin-left: 11.5px;
+    z-index: 1;
+}
+
+.btnValidate {
+    border: 0px;
+    border-radius: 35px;
+    background-color:white;
+    width: 375.5px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(47, 52, 142);
+}
+
+.btnValidate:active {
+    box-shadow: 0 0px #666;
+    opacity: 0.5;
+
+}
+
+.cupertino {
+    padding-left: 190px;
+    margin-top: -40px;
+}
+
+.alertDialog {
+    width: 270px;
+    height: 123.5px; /* 80px */
+   background-color: rgb(59, 59, 59);
+    /* background-color: transparent; */
+    position: relative;
+    z-index: 5;
+    margin-top: -454.5px;
+    margin-left: 64px;
+    border-radius: 13px;
+    text-align: center;
+}
+
+.alertDialogDivider {
+    border-width: 0 0 0.1px;
+    padding-top: 80px;
+    width: 270px;
+    opacity: 0.3;
+}
+
+.dialogBtn {
+    margin-top: -8px;
+}
+
+.dialogButton {
+    width: 270px;
+    height: 43.5px;
+    border-radius: 0 0 10px 10px;
+    outline: 0;
+    border-width: 0;
+    background-color: transparent;
+    color: rgb(39, 132, 226);
+    font-family: 'SF Pro Rounded', san-serif;
+    font-size: 17px;
+}
+
+.dialogButton:active {
+    background-color: #666;
+    
+}
+.dialogContent {
+    align-content: right;
+}
+
+.dialogTitle {
+    position: absolute;
+    z-index: 5;
+    color: white;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-left: 103px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.dialogDescription {
+    word-spacing: 1px;
+    position: absolute;
+    z-index: 5;
+    color: white;
+    font-size: 12.5px;
+    padding-left: 41px;
+    padding-top: 32px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+}
+
+.dFont{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.accFont {
+    font-weight: 500;
+}
