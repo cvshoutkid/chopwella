@@ -1,4 +1,10 @@
 /*  */
+@font-face {
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Pro Rounded'), url('app/SF_PRO_ROUNDED_Regular.woff2') format('woff');
+    }
 
 * {
     font-family: 'Montserrat', sans-serif;
