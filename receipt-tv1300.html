@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Receipt for iPhone XR</title>
+
+    <link rel="stylesheet" href="app/receipt.css">
+    <link rel="stylesheet" href="app/ispinner.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section id="scaffold">
+        <!-- CARD -->
+        <div class="cardContainer">
+            <div class="receiptCard">
+                <div class="txDetails">
+                    <h3 class="txDetailsText">Transaction Details</h3>
+                </div>
+                <hr>
+
+                <div class="txContent">
+                    <!-- TRANSACTION ID-->
+                <h6 id="transaction-id">Transaction ID</h6>
+                <p id="txid" class="accFont"></p>
+
+                <!-- TRANSACTION DATE-->
+                <h6 id="transaction-date">Transaction Date</h6>
+                <p id="date" class="accFont"></p>
+
+                <!-- TRANSACTION STATUS-->
+                <h6 id="transaction-status">Transaction Status</h6>
+                <p id="status" class="accFont">Success</p>
+
+                <!-- DESTINATION-->
+                <h6 id="to">To</h6>
+                <p id="cafe">Tasty Vine Kitchen</p>
+
+                <!-- AMOUNT-->
+                <h6 id="amount">Amount</h6>
+                <p id="cost">&#8358;1300</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- VALIDATE BUTTON -->
+        <div class="btnContainer">
+            <button id="btnController" class="btnValidate">
+                Validate
+            </button>
+        </div>
+
+        <!-- SPINNING GLYPH -->
+        <div class="cupertino" style="visibility: hidden;">
+            <div id="cspin" class="ispinner">
+                <div class="ispinner-blade"></div>
+                <div class="ispinner-blade"></div>
+                <div class="ispinner-blade"></div>
+                <div class="ispinner-blade"></div>
+                <div class="ispinner-blade"></div>
+                <div class="ispinner-blade"></div>
+                <div class="ispinner-blade"></div>
+                <div class="ispinner-blade"></div>
+              </div>
+        </div>
+        <!-- ALERT DIALOG -->
+        
+    </section>
+
+    <section>
+        <div id="dialogContainer" style="visibility: hidden;">
+            <div  id="alertbox" class="alertDialog">
+                <div class="dialogContent">
+                    <h4 class="dialogTitle dFont">Success</h4>
+                    <p class="dialogDescription dFont">The transaction receipt is valid.</p>
+                </div>
+                <hr class="alertDialogDivider">
+                <div class="dialogBtn">
+                    <button id="diaBtnController" class="dialogButton">Ok</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app/receipt.js"></script>
+</body>
+</html>
